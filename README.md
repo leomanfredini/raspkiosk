@@ -42,16 +42,18 @@ Opção B1 - Desktop/CLI
 Opção B4 - Desktop Autologin
 
 
-
 #### 6. CRIAR O SCRIPT RESPONSÁVEL POR INICIAR O MODO QUIOSQUE
 
 Criar o arquivo para o script
+
 	$ nano /home/pi/kiosk.sh
 
 Copiar o conteúdo do arquivo *kiosk.sh* disponível neste repositório
 
 #### 7. CRIANDO O SERVIÇO PARA INICIAR O SCRIPT NO BOOT
+
 Criar o arquivo para o script
+
 	$ sudo nano /lib/systemd/system/kiosk.service
 
 Copiar o conteúdo do arquivo *kiosk.service* disponível neste repositório
@@ -64,7 +66,9 @@ Copiar o conteúdo do arquivo *kiosk.service* disponível neste repositório
 ------------
 
 Comando para iniciar manualmente o Kiosk Mode
-`$ sudo systemctl start kiosk.service`
+
+	$ sudo systemctl start kiosk.service
 
 Comando para finalizar manualmente o Kiosk Mode
-`$ sudo systemctl stop kiosk.service`
+
+	$ sudo systemctl stop kiosk.service
