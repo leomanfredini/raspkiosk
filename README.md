@@ -2,6 +2,7 @@
 ***Kiosk Mode no Raspberry Pi usando a distribuição Raspbian***
 
 **Distribuição utilizada:** Raspbian Buster with desktop
+
 **Download:** [https://www.raspberrypi.org/downloads/raspbian/](https://www.raspberrypi.org/downloads/raspbian/ "https://www.raspberrypi.org/downloads/raspbian/")
 
 
@@ -38,7 +39,9 @@
 	$ sudo raspi-config
 
 Opcao 3 - Boot Options
+
 Opção B1 - Desktop/CLI
+
 Opção B4 - Desktop Autologin
 
 
