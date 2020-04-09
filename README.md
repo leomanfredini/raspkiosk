@@ -1,9 +1,10 @@
 # Raspkiosk
 ***Kiosk Mode no Raspberry Pi usando a distribuição Raspbian***
 
-**Distribuição utilizada:** Raspbian Buster with desktop
+O *Kiosk Mode* (ou Modo Quiosque como é nacionalmente conhecido!!) é um recurso utilizado em totens de auto atendimento ou até mesmo em painéis informativos, onde precisamos disponibilizar ao usuário somente um navegador de internet com uma ou mais páginas específicas, ocultando todos os outros atalhos disponíveis no sistema operacional.
 
-**Download:** [https://www.raspberrypi.org/downloads/raspbian/](https://www.raspberrypi.org/downloads/raspbian/ "https://www.raspberrypi.org/downloads/raspbian/")
+- **Distribuição utilizada:** Raspbian Buster with desktop
+- **Download:** [https://www.raspberrypi.org/downloads/raspbian/](https://www.raspberrypi.org/downloads/raspbian/ "https://www.raspberrypi.org/downloads/raspbian/")
 
 
 ------------
@@ -29,7 +30,7 @@
 	$ sudo apt-get upgrade
 
 
-#### 4. INSTALAR PACOTES NECESSÁRIOS PARA O MODO QUIOSQUE
+#### 4. INSTALAR PACOTES NECESSÁRIOS PARA O *KIOSK MODE*
 
 	$ sudo apt-get install xdotool unclutter sed
 
@@ -38,14 +39,12 @@
 
 	$ sudo raspi-config
 
-Opcao 3 - Boot Options
-
-Opção B1 - Desktop/CLI
-
-Opção B4 - Desktop Autologin
+1. Opcao 3 - Boot Options
+2. Opção B1 - Desktop/CLI
+3. Opção B4 - Desktop Autologin
 
 
-#### 6. CRIAR O SCRIPT RESPONSÁVEL POR INICIAR O MODO QUIOSQUE
+#### 6. CRIAR O SCRIPT RESPONSÁVEL POR INICIAR O *KIOSK MODE*
 
 Criar o arquivo para o script
 
@@ -67,11 +66,15 @@ Copiar o conteúdo do arquivo *kiosk.service* disponível neste repositório
 
 
 ------------
+#### 9. USO
 
-Comando para iniciar manualmente o Kiosk Mode
+Seguindo os passos anteriores, o script já fica habilitado para iniciar no *Kiosk Mode* sempre que o sistema for iniciado. Para efetuar qualquer interação manualmente, utilize os seguintes comandos:
+
+
+##### 9.1 Comando para iniciar manualmente o Kiosk Mode
 
 	$ sudo systemctl start kiosk.service
 
-Comando para finalizar manualmente o Kiosk Mode
+##### 9.2 Comando para finalizar manualmente o Kiosk Mode
 
 	$ sudo systemctl stop kiosk.service
