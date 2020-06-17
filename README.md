@@ -1,7 +1,7 @@
 # Raspkiosk
 ***Kiosk Mode no Raspberry Pi usando a distribuição Raspbian***
 
-O *Kiosk Mode* (ou Modo Quiosque como é nacionalmente conhecido!!) é um recurso utilizado em totens de auto atendimento ou até mesmo em painéis informativos, onde precisamos disponibilizar ao usuário somente um navegador de internet com uma ou mais páginas específicas, ocultando todos os outros atalhos disponíveis no sistema operacional.
+O *Kiosk Mode* (ou Modo Quiosque como é nacionalmente conhecido!!) é um recurso utilizado em totens de auto atendimento e painéis informativos, onde há a necessidade de disponibilizar ao usuário somente um navegador de internet com uma ou mais páginas específicas, ocultando todos os outros atalhos disponíveis do sistema operacional.
 
 - **Distribuição utilizada:** Raspbian Buster with desktop
 - **Download:** [https://www.raspberrypi.org/downloads/raspbian/](https://www.raspberrypi.org/downloads/raspbian/ "https://www.raspberrypi.org/downloads/raspbian/")
