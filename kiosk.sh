@@ -20,7 +20,7 @@ sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/pi/.config/chromium
 
 # Executar o Chromium 
 
-/usr/bin/chromium-browser --noerrdialogs --disable-infobars --kiosk http://monsta.farroupilha.rs.gov.br/ https://hetrixtools.com/r/bdf4aa4df66cdf3ee97993a1bfad0aff/ &
+/usr/bin/chromium-browser --noerrdialogs --disable-infobars --kiosk http://<URL> http://<URL> &
  
 
 # Alternar as abas abertas do Chromium a cada 20 segundos
