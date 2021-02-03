@@ -3,8 +3,8 @@
 
 O *Kiosk Mode* (ou Modo Quiosque como é nacionalmente conhecido!!) é um recurso utilizado em totens de auto atendimento e painéis informativos, onde há a necessidade de disponibilizar ao usuário somente um navegador de internet com uma ou mais páginas específicas, ocultando todos os outros atalhos disponíveis do sistema operacional.
 
-- **Distribuição utilizada:** Raspbian Buster with desktop
-- **Download:** [https://www.raspberrypi.org/downloads/raspbian/](https://www.raspberrypi.org/downloads/raspbian/ "https://www.raspberrypi.org/downloads/raspbian/")
+- **Distribuição utilizada:** Raspberry Pi OS with desktop - Release date: January 11th 2021
+- **Download:** [https://www.raspberrypi.org/software/operating-systems/](https://www.raspberrypi.org/software/operating-systems/ "https://www.raspberrypi.org/software/operating-systems/")
 
 
 ------------
@@ -39,8 +39,8 @@ O *Kiosk Mode* (ou Modo Quiosque como é nacionalmente conhecido!!) é um recurs
 
 	$ sudo raspi-config
 
-1. Opcao 3 - Boot Options
-2. Opção B1 - Desktop/CLI
+1. Opcao 1 - System Options
+2. Opcao S5 - Boot/Autologin
 3. Opção B4 - Desktop Autologin
 
 
