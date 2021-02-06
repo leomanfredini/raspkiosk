@@ -32,7 +32,7 @@ systemctl enable kiosk.service
 	echo "Comando para iniciar manualmente o Kiosk Mode:"
 	echo "  sudo systemctl start kiosk.service"
 	echo 
-  echo "Comando para finalizar manualmente o Kiosk Mode:"
+  	echo "Comando para finalizar manualmente o Kiosk Mode:"
 	echo "  sudo systemctl stop kiosk.service"
 	echo
 	echo "Por padrão, o script será iniciado sempre ao iniciar o sistema operacional"
