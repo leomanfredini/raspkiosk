@@ -3,6 +3,10 @@
 # This script is experimental and does not ensure any security.
 # sudo wget -qO - https://raw.githubusercontent.com/leomanfredini/raspkiosk/master/install.sh | bash
 
+echo “Wait for 10 seconds”
+sleep 10
+echo “Completed”
+
 # REMOVER PACOTES DESNECESSÁRIOS
 sudo apt-get purge wolfram-engine scratch scratch2 nuscratch sonic-pi idle3 smartsim java-common minecraft-pi libreoffice* -y
 #apt-get purge smartsim java-common minecraft-pi libreoffice* -y
