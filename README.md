@@ -6,7 +6,7 @@ O *Kiosk Mode* (ou Modo Quiosque) é um recurso utilizado em totens de auto aten
 - **Distribuição utilizada:** Raspberry Pi OS with desktop - Release date: January 11th 2021
 - **Download:** [https://www.raspberrypi.org/software/operating-systems/](https://www.raspberrypi.org/software/operating-systems/ "https://www.raspberrypi.org/software/operating-systems/")
 
-## INSTALAÇÃO AUTOMATIZADA
+## Instalação Automatizada
 
 Executar em um terminal a seguinte linha de comando (requer conexão à internet):
 
@@ -15,7 +15,7 @@ Executar em um terminal a seguinte linha de comando (requer conexão à internet
 
 ------------
 
-## INSTALAÇÃO MANUAL
+## Instalação Manual
 
 
 #### 1. REMOVER PACOTES DESNECESSÁRIOS
