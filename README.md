@@ -8,7 +8,7 @@ O *Kiosk Mode* (ou Modo Quiosque) é um recurso utilizado em totens de auto aten
 
 ## INSTALAÇÃO AUTOMATIZADA
 
-Executar em um terminal a sequinte linha de comando (requer conexão à internet)
+Executar em um terminal a seguinte linha de comando (requer conexão à internet):
 
 
 	$ sudo wget -qO - https://raw.githubusercontent.com/leomanfredini/raspkiosk/master/install.sh | bash
